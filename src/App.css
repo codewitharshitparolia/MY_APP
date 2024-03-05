@@ -1,0 +1,113 @@
+/* App.css */
+
+.app {
+  /* font-family: Arial, sans-serif; */
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-color: rgb(36, 15, 41);
+  ;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0px;
+}
+
+/* #para {
+  width: 50vw;
+  border: 3px solid yellow;
+} */
+
+/* Logo */
+.logoo {
+  width: 100px;
+  /* Adjust the width as needed */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Body styles */
+.body {
+  padding: 10px;
+  color: aqua;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+
+#brand {
+  color: rgb(62, 123, 177);
+  font-size: 50px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.battle_logo {
+  width: 800px;
+  height: 400px;
+}
+
+#slogan {
+  text-decoration: underline;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+/* .blog-post {
+  margin-bottom: 40px;
+  background-color: rgb(36, 15, 41);
+  font-style: italic;
+  color: lavender;
+  height: 50px;
+} */
+
+/* .about-section {
+  margin-top: 120px;
+  background-color: rgb(36, 15, 41);
+} */
+
+a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.rules{
+  text-align: left;
+  list-style-position: inside;
+}
+
+p, .rules{
+  border: 3px solid white;
+  padding: 40px;
+  /* background-color: aqua; */
+  border-radius: 50px;
+  width: 70vw;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #9d4483;
+  font-size: 20px;
+}
